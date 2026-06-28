@@ -1,0 +1,37 @@
+TOPIC
+	PRIVACY
+	DATA USAGE
+	TARGETED ADVERTISEMENT
+		KEYWORDS
+			Cookies
+			Phishing
+			Vulnerabilities
+			Hack
+			Social engineering
+			Manipulation
+			Consumer choice
+			Consumer profile
+			Micro-targeting
+			Narrowcasting
+			Psychographics
+			Psychological warfare
+			Political manipulation
+				CONSEQUENCES
+					Manipulation of elections
+					Consumer debt
+					Financial stress
+					Total loss of privacy
+					Loss of democratic process
+						TITLES
+							The power of Cookies, how to stop them
+							Cookie warfare
+							The era of the Cookie, losing privacy
+							Countering cookies
+								VISUAL REPRESENTATION/PRAXIS
+									AD Blocker
+									Data Vis website about breaches and info
+									Through creative coding and data colletion represent how much data is leaked and stolen
+									Show the consequences through some type of coding???
+								
+									
+

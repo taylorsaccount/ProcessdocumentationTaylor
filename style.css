@@ -1,0 +1,2387 @@
+
+
+:root{
+    --main-color-light: white;
+    --secondary-color-light: black;
+    --tertiary-color-light: #3a5ae68c;
+}
+
+html{
+    background-color: var(--main-color-light);
+    color: var(--secondary-color-light);
+}
+
+#root{
+        border-radius: 10px;
+   
+    display: inline-block;
+    line-height: initial;
+    position: fixed;
+    left: 1%;
+    font-family: Arial;
+    top: 2%;
+    margin: 16px 0;
+    border: 1px solid var(--secondary-color-light);
+}
+
+#root2{
+    border-radius: 10px;
+    margin: 16px 0;
+    display: inline-block;
+    line-height: initial;
+    position: fixed;
+    left: 1%;
+    font-family: Arial;
+    bottom: 2%;
+    border: 1px solid var(--secondary-color-light);
+}
+
+.lm-calendar-footer{
+    display: none;
+}
+
+.lm-timeline-data[data-align=left] .lm-timeline-item[data-bullet]::before {
+    left: -20px;
+    margin: 0 0 0 -105px;
+    text-align: right;
+    display: none;
+}
+
+.lm-timeline-data[data-align=left] {
+    padding: 15px 0 15px 50px;
+    overflow-y: auto;
+}
+
+.lm-timeline-item[data-bullet] .lm-timeline-title::before {
+        content: "";
+    width: 16px;
+    color: red;
+    height: 16px;
+    border-radius: 16px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #93a4f1;
+    display: inline-block;
+    box-sizing: border-box;
+    background-color: #93a4f1;
+    margin: 1px;
+    position: absolute;
+}
+
+[data-date] {
+    background-color: var(--date-color);
+}
+
+.highlight-date { background: var(--tertiary-color-light) !important; border-color: var(--tertiary-color-light); }
+
+#selected-value { margin: 0.5rem 0; font-size: 0.95rem; }
+
+.info-grid{
+    display: flex;
+    position: fixed;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 90%;
+    -ms-flex-align: center;
+    
+    gap: 3%;
+    width: 15%;
+    
+    left: 1%;
+}
+
+.info-grid2{
+    display: flex;
+    position: fixed;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 90%;
+    -ms-flex-align: center;
+    bottom: 1%;
+    gap: 3%;
+    width: 15%;
+    
+    left: 1%;
+}
+
+.doc{
+    position: absolute;
+    display: flex;
+    right: 0%;
+    top:3%;
+    left: 40%;
+    
+    overflow-y: scroll;
+    flex-direction: column;
+    
+}
+
+
+.title{
+    font-family: arial;
+    font-size: 8vw;
+     border-top: solid var(--secondary-color-light) 1px;
+
+}
+
+.process{
+    position: relative;
+    border-top: solid var(--secondary-color-light) 1px;
+    border-bottom: solid var(--secondary-color-light) 1px;
+   
+    padding-bottom: 10vh;
+    padding-top: 10vh;
+}
+
+/* Desktop1 section */
+.Desktop1 {
+    width: 100%;
+    height: 0;
+    padding-top: 368.8194%;
+    container-type: inline-size;
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+.ConceptDevelopment {
+    width: 33.4722%;
+    height: 1.7323%;
+    left: 1.5278%;
+    top: 0.4707%;
+    position: absolute;
+    color: black;
+    font-size: 2.2222cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.January {
+    width: 33.4722%;
+    height: 1.7323%;
+    left: 1.5278%;
+    top: 2.6549%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.February {
+    width: 33.4722%;
+    height: 1.7323%;
+    left: 1.5278%;
+    top: 43.2875%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.March {
+    width: 33.4722%;
+    height: 1.1486%;
+    left: 1.5278%;
+    top: 74.6375%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.June {
+    width: 33.4722%;
+    height: 1.1486%;
+    left: 1.5278%;
+    top: 88.7968%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.BaseConceptAlreadyClearWithAFocusOnDigitalPrivacyAndTheEducationOfTheAverageUserOnTheSubjectThoughExactlyHowThatWouldBeAchievedIsUndefined {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 4.8202%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.AtThisPointTheExactMediumIsDiscussedAndNarrowed {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 21.2013%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.PlugInsPonderedAboutForTheFirstTimeAlongsideFurtherPossibleIdeas {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 32.5927%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.FinalTitleBroughtUpForTheFirstTimeAlongsideDiscussionAboutWhatCanRealisticallyBeDone {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 45.5281%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DekstopPetIdeaHasBeenBroughtUpForTheFirstTimeDuringAPresentation {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 52.8337%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.FirstConcreteConceptDefinition {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 60.0075%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.ImprovedSecondConceptNearingTheFinalPracticalThesisTopic {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 65.8256%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.FirstSketchesDelvingIntoTheDesktopPetIdeaWithACatAsTheCharacterAlongsideImprovedThesisConcept {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 76.0497%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.FinalConceptToolWillBeAWebPluginWithAnAppIfImplementationWorks {
+    width: 87.3611%;
+    height: 1.7323%;
+    left: 6.3194%;
+    top: 90.209%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.Concept1 {
+    width: 87.3611%;
+    height: 11.1843%;
+    left: 6.3194%;
+    top: 6.7972%;
+    position: absolute;
+}
+
+.Concept21 {
+    width: 48.5417%;
+    height: 6.8349%;
+    left: 45.1389%;
+    top: 22.9335%;
+    position: absolute;
+}
+
+.Concept31 {
+    width: 41.6194%;
+    height: 7.3244%;
+    left: 52.1528%;
+    top: 34.325%;
+    position: absolute;
+}
+
+.Concept41 {
+    width: 27.5694%;
+    height: 10.8642%;
+    left: 59.2361%;
+    top: 77.782%;
+    position: absolute;
+}
+
+.PraxisCreativeIdeaMindmapMaybeJustReduceToOnlyAToolToHelpPrivacyMakesItEasierInsteadOfAWholeWebsiteMaybeAToolOfToolsBasicallyDoYouFocusOnStoppingAConsumerProfileFromBeingCreatedOrFromBeingInfluencedByTheTargetedAdvertisementEssentiallyAtWhatPointInTheChainDoYouStopItTheStartOrTheEnd {
+    width: 36.1111%;
+    height: 6.8349%;
+    left: 7.3611%;
+    font-size: 1vw;
+    top: 22.9335%;
+    position: absolute;
+}
+
+.EverythingIsInTheRealmOfToolsMaybeAlsoMakingToolsLikeThatMoreAccessibleToPeopleWhoDonTKnowMuchAboutComputerStuff {
+    width: 36.1111%;
+    height: 7.3244%;
+    font-size: 1vw;
+    left: 7.3611%;
+    top: 34.325%;
+    position: absolute;
+}
+
+.PossibleTitleCounteringCookiesDemocratizingPrivacyNotesWhatCanYouPossiblyRealisticallyCodeAdblockClientSideSureServerSideCookieTrackerSocialMediaBlocker {
+    width: 36.1111%;
+    height: 4.2365%;
+    font-size: 0.8vw;
+    left: 7.3611%;
+    top: 47%;
+    position: absolute;
+}
+
+.PresentationNotesMakeSureYouTryToWhittleDownTheScopeReallyTryToFindPeopleToTestThingsWhatDifferenciatesYourAdblockFromOthersTryToVisualizeTheDataHarvestingConsequencesDigitalAssistantThatTellsYouWhatCookiesAreOnAndWhatIsGettingBlockedMaybeHaveItTellYouThingsWhenYouGoOnSocialMediaAndLikeWhatTheSocialMediaHadForScandals {
+    width: 39.1667%;
+    height: 4.726%;
+    font-size: 0.8vw;
+    left: 7.3611%;
+    top: 54%;
+    position: absolute;
+}
+
+.Image3 {
+    width: 73.6806%;
+    height: 4.4436%;
+    left: 13.125%;
+    top: 67.2566%;
+    position: absolute;
+}
+
+.Image4 {
+    width: 73.6806%;
+    height: 2.2406%;
+    left: 13.125%;
+    top: 61.2314%;
+    position: absolute;
+}
+
+.Image2 {
+    width: 49.6528%;
+    height: 3.4833%;
+    left: 7.3611%;
+    top: 77.9326%;
+    position: absolute;
+}
+
+.Image5 {
+    width: 74.9306%;
+    height: 5.3474%;
+    left: 12.5%;
+    top: 91.9413%;
+    position: absolute;
+}
+
+/* Desktop2 section */
+.Desktop2 {
+    width: 100%;
+    height: 0;
+    padding-top: 1836.5278%;
+    container-type: inline-size;
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+.VisualDevelopment {
+    width: 33.4722%;
+    height: 0.3479%;
+    left: 1.5278%;
+    top: 0.0945%;
+    position: absolute;
+    color: black;
+    font-size: 2.2222cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AdBlocker {
+    width: 33.4722%;
+    height: 0.3479%;
+    left: 1.5278%;
+    top: 0.5332%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.FirstConceptThatWasLaterDiscardedTheAdBlockerWasntFullyDesignedThoughMockUpsWereAttemptedWithASimpleAndCleanLookInspiredByOtherAdBlockersLikeUblockOrigin {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 0.8962%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DesktopPetCharacter {
+    width: 33.4722%;
+    height: 0.3479%;
+    left: 1.5278%;
+    top: 3.5015%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.ThePixelArtStyleMakesItsFirstAppearanceInspiredByGamesLikeDeltaruneBalatroAndMinaTheHollowerIDecidedToApplyTheRetroAestheticToMakeTheGameMorePalatableTowardsTheYoungAdultAudienceTheDecisionWasMadeToMakeTheMainCatSpritesWithThePixelArtStyleAMixWasUsedOfAsperiteForPixelArtPhotoshopForPaintingsAndBlenderForThe3dAnimationForTheCharacterArt {
+    width: 87.3611%;
+    height: 0.5937%;
+    left: 6.3194%;
+    top: 5.8043%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.WhilePixelArtWorksGreatToQuicklyCreateCharacterSpritesAndAnimationsTheSimplicityDoesnTLendWellToExpressionInReferenceToTheUsageOfTheCatAsAMemeItWasDecidedToUseDifferentStylesForEachEmotionToMakeTheExpressionClearerAndMorePlayful {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 8.7461%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.WhileTheorisingAPotentialPetCustomisationOptionRaisinTheGuineaPigWasConceptualisedAsASecondaryPetThatCouldBeChosenInsteadOfChipThisIdeaWasLaterDiscardedDueToTimeConstraintsWithTheIdeaOfLaterImplementationOnceTheBachelorsProjectIsFinished {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 12.6371%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.FirstEverDrawingOfChipTheCatAspectIsTheSameAlongsideTheIdeaOfGivingHimAFurColorRelatedToCookiesThoughTheAestheticIsCleanAndFuturisticChipHereIsMoreOfACyberCatEnteringYourBrowserToInformYouAboutCookies {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 3.8494%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DesktopPetGui {
+    width: 33.4722%;
+    height: 0.3479%;
+    left: 1.5278%;
+    top: 14.8869%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.TheGuiBeganRatherSimpleStickingWithThePixelAestheticAndAttemptingToIncorporateColorsCoherentWithTheCatDesignInitialDesignsWereTheIconTheRadialMenuAndABasicSettingsMenuTheOnlyRemainingDesignFromThisStepIsTheIconAsTheSettingsMenuWasRedesignedAndTheRadialMenuWasLaterRemoved {
+    width: 87.3611%;
+    height: 0.4386%;
+    left: 6.3194%;
+    top: 15.3218%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.AtThisStepABasicTextBoxWasIntroducedUtilisingTheNativeWindowsAppPopUpThisWasMerelyDueToMeNotKnowingThatCouldBeDisabledSoAtThisStageTheTextBoxIsJustABasicAppWindowWithTheSameColorUsedPreviouslyForTheRadialMenuAndSettingsAttempt {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 22.1281%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.LaterAttemptsWereMadeToRefineTheAppWindowConceptToActuallyDesignItsContentsAndAddToTheOverallAestheticOfTheAppTwoMainIdeasWereTriedTheFirstBeingAnAiInspiredIdeaWithSleekAndModernDesignChoicesWithTheAddedWhiteIconThatActsAccordingToTheSituationWhileThisIdeaWasLikedByMentorsMyOpinionWasThatItClashedTooStronglyWithTheDesignOfTheCatItself {
+    width: 87.3611%;
+    height: 0.4651%;
+    left: 6.3194%;
+    top: 24.5217%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.TheSecondIdeaWasTryingToStickToThePixelVideoGameAestheticWithAdjustmentsToMakeItSeemMuchMoreLikeAnActualGameWindowChipIsUsingToCommunicateAlongsideSettingsOptions {
+    width: 87.3611%;
+    height: 0.4651%;
+    left: 6.3194%;
+    top: 27.7736%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.WhileResearchingTheGameEngineIAmUtilisingForThisProjectGodotIWasMadeAwareThatAnimatingTextIsRatherEasyThisStepWasMerelyCataloguingTheDifferentPossibilitiesOfAnimationThatCouldBeUsedLaterToFurtherEnhanceTheVisualsOfTheGui {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 34.1866%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.InALaterOccurenceWhileCodingIStumbledUponTheAbilityToMakeTheAppWindowTransparentThusOnlyShowingTheContentsThisLeadToTheFirstAnimatedTextBoxGrowingInSizeWithTheSizeOfTheText {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 39.4351%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.BySideThePlugInUtilisedToFeedTrackerDataToTheAppWasModifiedFromTheOriginalLookOfPrivacyBadgerTheAdditionsServingToAddThePixelAestheticToRemainConsistentWithTheAppDueToTheFactThisIsIntendedToBeRemovedInLaterVersionsAndTimeConstraintsThisWasTheOnlyExtentOfTheDesigning {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 42.6454%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.AfterMiddlingSuccessWithTheLastFewDesignsIWentBackToBrainstormingReachingTwoPossibleIdeasForTheGuiAsDescribedBelowTheWindowsHistoryIdeaInMyMindSeemedTheMostPromisingSoFurtherCareWasTakenToCreateAPlugInDesignAndLaterOnImplementItWithinTheApp {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 45.4927%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DemosCreatedToGiveAnIdeaOfWhatTheDifferentStylesWouldLookLikeInContextDuringATrackerWarning {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 59.2906%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.ThirdAndLastRedesignAfterFeedbackFromTheLastMentoringTheWindowsUiIdeaWasWidelyRejectedWhileTheCyberTerminalAestheticWasSeenAsMoreCohesiveYetLackingWithThisLastAttemptAtRedesigningTheUiIStartedFromScratchChoosingAColorPaletteBasedOffChipOneBeingTheColorfulPaletteAndTheOtherBeingAComplementaryContrastPaletteTheseColorsWereAnalysedForVariousIssuesLikeContrastIfTheyWorkTogetherAndColorBlindnessConflicts {
+    width: 87.3611%;
+    height: 0.8848%;
+    left: 6.3194%;
+    top: 66.3881%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.NewPiskel1 {
+    width: 19.5139%;
+    height: 1%;
+    left: 10.8333%;
+    top: 6.105%;
+    position: absolute;
+}
+
+.NewPiskel1Png1 {
+    width: 19.4444%;
+    height: 0.571%;
+    left: 30.3472%;
+    top: 6.5568%;
+    position: absolute;
+}
+
+.NewPiskel1Png2 {
+    width: 19.4444%;
+    height: 0.571%;
+    left: 30.3472%;
+    top: 6.5568%;
+    position: absolute;
+}
+
+.NewPiskel2Png1 {
+    width: 19.5139%;
+    height: 0.571%;
+    left: 49.7917%;
+    top: 6.5568%;
+    position: absolute;
+}
+
+.Eat1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 50.1389%;
+    top: 7.434%;
+    position: absolute;
+}
+
+.NewPiskel1Png12 {
+    width: 19.4444%;
+    height: 1.0625%;
+    left: 10.9028%;
+    top: 7.1315%;
+    position: absolute;
+}
+
+.NewPiskel1Png1 {
+    width: 19.5139%;
+    height: 1.0625%;
+    left: 30.3472%;
+    top: 7.1277%;
+    position: absolute;
+}
+
+.FatAssCat1 {
+    width: 10.7639%;
+    height: 0.5748%;
+    left: 69.375%;
+    top: 6.553%;
+    position: absolute;
+}
+
+.Petting1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 70.1389%;
+    top: 7.434%;
+    position: absolute;
+}
+
+.Confusion1 {
+    
+    height: 1.109%;
+    left: 27.2694%;
+    top: 9.991%;
+    position: absolute;
+}
+
+.Sequence0211 {
+    width: 19.5139%;
+    height: 0.6579%;
+    left: 8.0556%;
+    top: 10.4439%;
+    position: absolute;
+}
+
+.Dgifmaker015391 {
+    
+    height: 1.095%;
+    left: 50.1389%;
+    top: 10.139%;
+    position: absolute;
+}
+
+.DisbeliefConfusion {
+    left: 12.7083%;
+    top: 11.1435%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FirstAttemptsAtEmotions {
+    width: 20.2083%;
+    left: 40.9722%;
+    top: 10.0469%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FinalEmotionsNotAllWereUsed {
+    width: 20.2083%;
+    left: 40.9722%;
+    top: 12.2438%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Confusion {
+    left: 34.6528%;
+    top: 11.1435%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AngerShock {
+    left: 57.2222%;
+    top: 11.1435%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Mad {
+    left: 82.6389%;
+    top: 11.1435%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Fear {
+    left: 16.6667%;
+    top: 11.9262%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.HappyPleased {
+    left: 33.4028%;
+    top: 11.9262%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.NerdFace {
+    left: 57.9167%;
+    top: 11.9262%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Congratulations {
+    left: 79.5833%;
+    top: 11.9262%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Happy1 {
+    width: 18.125%;
+    height: 0.5823%;
+    left: 28.2639%;
+    top: 11.3287%;
+    position: absolute;
+}
+
+.Scared1 {
+    
+    height: 0.6655%;
+    left: 9.5083%;
+    top: 11.2456%;
+    position: absolute;
+}
+
+.Nerd21 {
+    width: 10%;
+    height: 0.5974%;
+    left: 55%;
+    top: 11.3287%;
+    position: absolute;
+}
+
+.Mad1 {
+    width: 18.4722%;
+    height: 0.7109%;
+    left: 73.4028%;
+    top: 10.391%;
+    position: absolute;
+}
+
+.Congrats1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 76.875%;
+    top: 11.1359%;
+    position: absolute;
+}
+
+.Visual11 {
+    width: 17.5694%;
+    height: 0.7487%;
+    left: 37.1528%;
+    top: 9.2301%;
+    position: absolute;
+}
+
+.Visual31 {
+    width: 7.8472%;
+    height: 0.4689%;
+    left: 54.7222%;
+    top: 9.5099%;
+    position: absolute;
+}
+
+.Pickupraisin2 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 41.5972%;
+    top: 13.6656%;
+    position: absolute;
+}
+
+.Stareraisin1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 57.0833%;
+    top: 12.9018%;
+    position: absolute;
+}
+
+.Sleepraisin1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 41.5972%;
+    top: 12.9018%;
+    position: absolute;
+}
+
+.Chip1 {
+    width: 13.75%;
+    height: 1.0512%;
+    left: 43.125%;
+    top: 4.2691%;
+    position: absolute;
+}
+
+.Iconbig1 {
+    width: 19.5833%;
+    height: 1.0663%;
+    left: 36.5972%;
+    top: 15.8209%;
+    position: absolute;
+}
+
+.Pettingraisin1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 26.1111%;
+    top: 13.658%;
+    position: absolute;
+}
+
+.Raisinwalk1 {
+    width: 13.8889%;
+    height: 0.7563%;
+    left: 26.1111%;
+    top: 12.9018%;
+    position: absolute;
+}
+
+.Visual41 {
+    width: 74.0972%;
+    height: 2.8511%;
+    left: 11.3194%;
+    top: 17.0687%;
+    position: absolute;
+}
+
+.Guix2 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 31.25%;
+    top: 21.0429%;
+    position: absolute;
+}
+
+.Guiquestion2 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 38.1944%;
+    top: 21.0429%;
+    position: absolute;
+}
+
+.Guipaw2 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 24.3056%;
+    top: 21.0429%;
+    position: absolute;
+}
+
+.Guipawhover1 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 24.3056%;
+    top: 20.6648%;
+    position: absolute;
+}
+
+.Guiquestionhover1 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 38.1944%;
+    top: 20.6648%;
+    position: absolute;
+}
+
+.Guixhover1 {
+    width: 6.9444%;
+    height: 0.3781%;
+    left: 31.25%;
+    top: 20.6799%;
+    position: absolute;
+}
+
+.Guishowpaw1 {
+    width: 25.6944%;
+    height: 0.9907%;
+    left: 50%;
+    top: 20.4303%;
+    position: absolute;
+}
+
+.Textboxanimatedboxwithtext1 {
+    width: 27.3611%;
+    height: 1.989%;
+    left: 22.6389%;
+    top: 40.1611%;
+    position: absolute;
+}
+
+.Visual51 {
+    width: 55.5556%;
+    height: 1.263%;
+    left: 22.2222%;
+    top: 22.9071%;
+    position: absolute;
+}
+
+.Guipixelgif23 {
+    width: 38.0556%;
+    height: 2.5902%;
+    left: 12.7083%;
+    top: 28.4164%;
+    position: absolute;
+}
+
+.Guipixelgif221 {
+    width: 38.0556%;
+    height: 2.6015%;
+    left: 54.0278%;
+    top: 28.4051%;
+    position: absolute;
+}
+
+.Guiaitrygif1 {
+    width: 66.9444%;
+    height: 2.1629%;
+    left: 18.9583%;
+    top: 25.2439%;
+    position: absolute;
+}
+
+.Visual61 {
+    width: 79.375%;
+    height: 2.3936%;
+    left: 12.7083%;
+    top: 31.1843%;
+    position: absolute;
+}
+
+.Textboxanimationgodot1wave1 {
+    width: 26.25%;
+    height: 1.8717%;
+    left: 7.7778%;
+    top: 34.7803%;
+    position: absolute;
+}
+
+.Textboxanimationgodot2pulse1 {
+    width: 26.875%;
+    height: 1.8982%;
+    left: 36.6667%;
+    top: 34.7538%;
+    position: absolute;
+}
+
+.Textboxanimationgodot3tornado1 {
+    width: 26.1139%;
+    height: 1.8982%;
+    left: 66.1111%;
+    top: 34.7538%;
+    position: absolute;
+}
+
+.Textboxanimationgodot4shake1 {
+    width: 26.5278%;
+    height: 1.8869%;
+    left: 22.4306%;
+    top: 36.792%;
+    position: absolute;
+}
+
+.Textboxanimationgodot5rainbow1 {
+    width: 26.3194%;
+    height: 1.8869%;
+    left: 51.5278%;
+    top: 36.792%;
+    position: absolute;
+}
+
+.Visual71 {
+    width: 23.8889%;
+    height: 1.2856%;
+    left: 53.4028%;
+    top: 40.8644%;
+    position: absolute;
+}
+
+.Visual81 {
+    width: 78.3333%;
+    height: 3.0326%;
+    left: 14.2361%;
+    top: 46.2452%;
+    position: absolute;
+}
+
+.Visual91 {
+    width: 78.3333%;
+    height: 3.025%;
+    left: 14.2361%;
+    top: 49.5236%;
+    position: absolute;
+}
+
+.Visual101 {
+    width: 78.3333%;
+    height: 3.0288%;
+    left: 13.75%;
+    top: 55.5396%;
+    position: absolute;
+}
+
+.Demowindows1 {
+    width: 84.1667%;
+    height: 2.5788%;
+    left: 7.9167%;
+    top: 59.8389%;
+    position: absolute;
+}
+
+.Demo2cyber1 {
+    width: 81.0417%;
+    height: 2.4805%;
+    left: 9.4444%;
+    top: 63.0795%;
+    position: absolute;
+}
+
+.Visual121 {
+    width: 41.4583%;
+    height: 1.6146%;
+    left: 16.6667%;
+    top: 53.2028%;
+    position: absolute;
+}
+
+.Visuals111 {
+    width: 19.7917%;
+    height: 0.4764%;
+    left: 63.5417%;
+    top: 54.3409%;
+    position: absolute;
+}
+
+.AdobecolorMyColorTheme11 {
+    width: 48.4722%;
+    height: 2.9532%;
+    left: 24.7222%;
+    top: 67.4317%;
+    position: absolute;
+}
+
+.AdobecolorMyColorTheme12 {
+    width: 48.4722%;
+    height: 2.9343%;
+    left: 24.7222%;
+    top: 70.7593%;
+    position: absolute;
+}
+
+.Visual131 {
+    width: 68.5417%;
+    height: 2.265%;
+    left: 15.6944%;
+    top: 74.4498%;
+    position: absolute;
+}
+
+.Visual141 {
+    width: 41.1111%;
+    height: 1.7886%;
+    left: 29.4444%;
+    top: 77.4749%;
+    position: absolute;
+}
+
+.Visual151 {
+    width: 44.4444%;
+    height: 1.7205%;
+    left: 49.7917%;
+    top: 79.4033%;
+    position: absolute;
+}
+
+.Visual161 {
+    width: 40.0694%;
+    height: 1.7205%;
+    left: 5.7639%;
+    top: 79.4033%;
+    position: absolute;
+}
+
+.Visual171 {
+    width: 82.3278%;
+    height: 2.4541%;
+    left: 8.9583%;
+    top: 82.8443%;
+    position: absolute;
+}
+
+.Visual181 {
+    width: 82.3611%;
+    height: 2.0154%;
+    left: 8.8194%;
+    top: 85.8618%;
+    position: absolute;
+}
+
+.App11 {
+    width: 30.4167%;
+    height: 2.0003%;
+    left: 34.6528%;
+    top: 1.2592%;
+    position: absolute;
+}
+
+.RadialMenuTriggeredOnCatClickButtonsShownInIdleAndClickedState {
+    width: 24.5139%;
+    left: 37.7083%;
+    top: 21.6252%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Screenshot202606042353291 {
+    width: 32.5%;
+    height: 1.3386%;
+    left: 33.6111%;
+    top: 43.3374%;
+    position: absolute;
+}
+
+.Screenshot202606060045031 {
+    width: 23.75%;
+    height: 1.3386%;
+    left: 69.9306%;
+    top: 43.3374%;
+    position: absolute;
+}
+
+.Visual201 {
+    width: 23.5417%;
+    height: 1.3386%;
+    left: 6.3194%;
+    top: 43.3374%;
+    position: absolute;
+}
+
+.DefaultPbWindow {
+    width: 24.5139%;
+    left: 5.8333%;
+    top: 44.7516%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FirstChangesOnTheUi {
+    width: 24.5139%;
+    left: 37.7083%;
+    top: 44.7516%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FinalUiDesign {
+    width: 24.5139%;
+    left: 69.5139%;
+    top: 44.7516%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.InfoBoxOnTheLeftIsWindowsVistaTheGreyDialogueBoxIsWindows98TheBlackButtonBoxBelowIsWindows10 {
+    width: 36.7361%;
+    left: 35%;
+    top: 52.6507%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.PlugInDesignWithTheWindowsUi {
+    width: 36.7361%;
+    left: 19.0278%;
+    top: 54.9497%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.CyberTerminalIdeaInspiredByGamesIPlayedHeavyUseOfCodeLikeElementsLikeTheChipExeNameAndTheBinaryCodeInTheBack {
+    width: 36.7361%;
+    left: 31.5972%;
+    top: 58.7007%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.WindowsUiHistoryDemoAddedPopUpSoundsToFurtherEnhanceTheWindowsOsTheme {
+    width: 36.7361%;
+    left: 31.5972%;
+    top: 62.5161%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.CyberTerminalDemoPopUpNoisesUsedHereTooThoughOnesMuchMoreInLineWithTheVideoGameTheme {
+    width: 36.7361%;
+    left: 31.5972%;
+    top: 65.7188%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AlternativeIconsMixingManyDifferentDesignsFromPreviousEras {
+    width: 19.7917%;
+    left: 63.5417%;
+    top: 54.9497%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Image7 {
+    width: 45.4861%;
+    height: 2.6885%;
+    left: 4.2361%;
+    top: 89.7943%;
+    position: absolute;
+    border-radius: 17px;
+}
+
+.Image8 {
+    width: 33.3333%;
+    height: 1.2025%;
+    left: 52.3611%;
+    top: 94.2978%;
+    position: absolute;
+    border-radius: 22.74px;
+}
+
+.Image9 {
+    width: 35.2778%;
+    height: 2.6469%;
+    left: 14.2361%;
+    top: 92.8723%;
+    position: absolute;
+    border-radius: 19px;
+}
+
+.Image10 {
+    width: 27.5694%;
+    height: 0.7449%;
+    left: 52.3611%;
+    top: 92.8723%;
+    position: absolute;
+}
+
+.Screenshot202606242142341 {
+    width: 45.9028%;
+    height: 2.6885%;
+    left: 51.0417%;
+    top: 89.7943%;
+    position: absolute;
+    border-radius: 16px;
+}
+
+.Screenshot202606252346241 {
+    width: 42.7083%;
+    height: 2.541%;
+    left: 28.6111%;
+    top: 96.8615%;
+    position: absolute;
+    border-radius: 11px;
+}
+
+.ColorfulPalette {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 70.4379%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ContrastPalette {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 73.6936%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TestsForVariousColorBlindnessOnlyNoticeablyConflictIsWithTritanopia {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 76.8018%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TestsForContrastWhatWorksWithWhichColorsAndInWhatContext {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 81.2637%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FirstExperimentsOnFigma {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 85.4383%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.PixelArtRenditionsOfTheGuiInTheSameColors {
+    width: 36.7361%;
+    left: 30.5556%;
+    top: 88.0171%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SettingsMenu {
+    width: 36.7361%;
+    left: 8.6111%;
+    top: 92.5622%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TrackerMenu {
+    width: 36.7361%;
+    left: 55.625%;
+    top: 92.5622%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DialogueBox {
+    width: 25.625%;
+    left: 53.3333%;
+    top: 93.7609%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ButtonBox {
+    width: 25.625%;
+    left: 56.1806%;
+    top: 95.625%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.InformationBox {
+    width: 25.625%;
+    left: 19.0278%;
+    top: 95.625%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 1.1111cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.TheFinalStepWithTheUiWasToMakeItAccessibleForTritanopiaAsItWasTheOnlyColorBlindnessWithPotentialIssuesTheFixHereWasToSeparateTheOrangeFromTheRedMuchMoreClearlyForPeopleToBeAbleToDifferentiateTheseColorsWithTheRedBeingTurnedIntoADarkPurpleItShouldBeSeenAsADarkAndMuddyPinkForSomeoneWithTritanopia {
+    width: 87.3611%;
+    height: 0.484%;
+    left: 6.3194%;
+    top: 96.1506%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.BasedOffTheColorsChosenIBeganExperimentingWithVariousCombinationsQuicklyFiguringOutWhichOnesWorkTogetherTheBestAfterTheBaseExperimentsOnFigmaICreatedTheGuiOnAsperiteAsPixelArtInTheseVariousColors {
+    width: 87.3611%;
+    height: 0.3479%;
+    left: 6.3194%;
+    top: 82.2242%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.AfterManyAttemptsToFindTheRightCombinationsICameToUseTheBlueHuesTheRedAndTheOrangeWithTheIdeaBeingOfUtilisingTheseColorsInConsistentWaysToAfterSomeUseShouldFeelIntuitiveTheBluesAreUsedAsBackgroundToHighlightItsContentsTheRedIsUsedForTheInformationalLayerOfTheAppShowcasingSettingsOrWarningsAndTheOrangeIsTheInteractiveLayerThatAUserCanPressSlideOrScrollWithEachBoxWasFurtherDetailedWithOutlinesShadowsAndHighlightsToAddDimensionToThemWithTheDialogueBoxBeingGivenSlightTextureToSetItApartFromTheRestOfTheGui {
+    width: 87.3611%;
+    height: 0.7563%;
+    left: 6.3194%;
+    top: 88.7582%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+/* Desktop3 section */
+.Desktop3 {
+    width: 100%;
+    height: 0;
+    padding-top: 1502.4306%;
+    container-type: inline-size;
+    position: relative;
+    background: white;
+    overflow: hidden;
+}
+
+.AppDevelopment {
+    width: 33.4722%;
+    left: 1.5278%;
+    top: 0.1156%;
+    position: absolute;
+    color: black;
+    font-size: 2.2222cqw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AdBlockerIdea {
+    width: 33.4722%;
+    left: 1.5278%;
+    top: 0.6517%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.TheInitialIdeaWasASimpleAdBlockerTheCodeForItWasRelativelySimpleUtilisingANormalBrowserExtensionStructureAlongsideAListOfRulesBeingKnownDomainsAdsAreShownWithThusBlockingMostAdsAsTestingProvedAQuickMockUpWasDoneForAPresentationBeforeTheIdeaWasFullyScrapped {
+    width: 87.3611%;
+    left: 6.3194%;
+    top: 1.1833%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.App21 {
+    width: 27.3611%;
+    height: 1.7472%;
+    left: 19.0972%;
+    top: 2.7132%;
+    position: absolute;
+}
+
+.App31 {
+    width: 17.9861%;
+    height: 0.6563%;
+    left: 19.0972%;
+    top: 1.9367%;
+    position: absolute;
+}
+
+.App11 {
+        width: 30%;
+    left: 49.375%;
+    top: 1.3%;
+    position: absolute;
+}
+
+.DesktopPetVersion010 {
+    width: 33.4722%;
+    left: 1.5278%;
+    top: 5.2138%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.TheFirstAttemptAtTheDesktopPetAfterAbandoningTheAdBlockerIdeaAfterHavingCreatedBaseWalkingAndSittingSpritesTheyWereCodedIntoTheAppInThisVersionAllThatChipDoesIsWalkFromLeftToRightTheBigStepHereBeingAbleToCodeTheCatToRecogniseTheSizeOfTheScreenAndMoveAccordinglyAtTheBottomLeftToRight {
+    width: 87.3611%;
+    left: 6.3194%;
+    top: 5.7453%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.App51 {
+    width: 71.3583%;
+    height: 2.6716%;
+    left: 14.2361%;
+    top: 9.4754%;
+    position: absolute;
+}
+
+.EarlyCatImportedandwalking1 {
+    width: 59.6049%;
+    height: 2.6531%;
+    left: 20.2083%;
+    top: 6.4433%;
+    position: absolute;
+}
+
+.DesktopPetVersion020 {
+    width: 33.4722%;
+    left: 1.5278%;
+    top: 13.455%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.DevelopmentOnVersion02BeganWithDefiningWhatFunctionsTheAppCouldHaveMainlyConsideringFeedbackAndAssessingWhatCouldBeRealisticallyDoneWithinTheGivenTimeTheNextStepWasToDefineWhatActionsThePetShouldHaveToBetterPrepareForTheCodingProcessTheAppItselfHadAFewFeaturesAddedMainlyGivingTheCatIdlingLogicMeaningInsteadOfJustWalkingThePetWasNowTiedToARandomTimerThatDecidedBetweenSleepWalkOrStandARadialMenuForOptionsAndABasicTextboxForChipToCommunicateWith {
+    width: 87.3611%;
+    left: 6.3194%;
+    top: 13.9866%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.App81 {
+    width: 85.7403%;
+    height: 3.046%;
+    left: 7.1528%;
+    top: 21.8489%;
+    position: absolute;
+}
+
+.App71 {
+    width: 57.9861%;
+    height: 2.7224%;
+    left: 20.9722%;
+    top: 18.3638%;
+    position: absolute;
+}
+
+.App61 {
+    width: 57.9167%;
+    height: 2.7317%;
+    left: 21.0417%;
+    top: 15.364%;
+    position: absolute;
+}
+
+.Guishowpaw2 {
+    
+    height: 2.2186%;
+    left: 26.0278%;
+    top: 25.5281%;
+    position: absolute;
+}
+
+.Visual52 {
+    width: 80%;
+    left: 9.0278%;
+    top: 28.9799%;
+    position: absolute;
+}
+
+.App91 {
+    width: 39.5833%;
+    height: 1.8997%;
+    left: 30.2083%;
+    top: 31.6385%;
+    position: absolute;
+}
+
+.TheMainIssueCurrentlyIsTryingToFigureOutIfTheAppCanBecomeAnExtensionThatCouldBeImplementedWithinBrowsersHttpsWwwYoutubeComWatchVTglxdea6f04VeryTechnicallyICouldDoThisEssentiallyImplementingTheDesktopPetWithinOneWindowThatIsLaunchedThatThenFetchesDataFromTheWholeBroswerOneCouldAlsoAssumeSinceYouCanCodeHtml5GamesYouCouldConceivablyExportTheGodotPartAddThePrivacyBadgerPartAndHaveItWorkOnBrowsersAfterForumQuestionsAndAiAskingItAppearsThatUsingPureGodotOnTheBrowserLeadsToHeavyCpuUsageMeaningTheBrowserUsabilityAndPerformanceTanksItSeemsTheBestOptionIsToForgoTheWebExtensionOnlyIdeaToGoWithABridgeWebsocketOrNativeMessaging {
+    width: 60.4861%;
+    height: 1.2803%;
+    font-size: 0.8vw;
+    left: 17.2917%;
+        top: 37.3%;
+    position: absolute;
+}
+
+.Visual72 {
+    width: 24.375%;
+    height: 1.5993%;
+    left: 22.2222%;
+    top: 45.2877%;
+    position: absolute;
+}
+
+.App121 {
+    width: 55.5556%;
+    height: 2.422%;
+    left: 22.2222%;
+    top: 39.5172%;
+    position: absolute;
+}
+
+.App141 {
+    width: 55.5556%;
+    height: 1.4791%;
+    left: 22.2222%;
+    top: 53.3395%;
+    position: absolute;
+}
+
+.App151 {
+    width: 51.3889%;
+    height: 2.7779%;
+    left: 24.3056%;
+    top: 49.6464%;
+    position: absolute;
+}
+
+.App131 {
+    width: 55.8271%;
+    height: 0.587%;
+    left: 22.2222%;
+    top: 38.0478%;
+    position: absolute;
+}
+
+.App171 {
+    width: 68.6806%;
+    height: 2.5514%;
+    left: 15.625%;
+    top: 55.7338%;
+    position: absolute;
+}
+
+.WalkAnimationIsEnabled {
+    width: 20.2083%;
+    left: 39.8611%;
+    top: 9.2212%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AlongsideTheWalkAnimationChipCanNowRecogniseWhereTheScreenEndsAndWalkAccordingly {
+    width: 34.6528%;
+    left: 32.6389%;
+    top: 12.3134%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.FewFunctionsAndEmotionsWerenTAddedToDueEitherTimeConstraintOrDifficultyCoding {
+    width: 34.6528%;
+    left: 32.6389%;
+    top: 21.2526%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.IdlingLogicAdded {
+    width: 34.6528%;
+    left: 32.6389%;
+    top: 25.0612%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.RadialMenuAdded {
+    width: 34.6528%;
+    left: 32.6389%;
+    top: 27.9131%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.BasicTextBoxExamples {
+    width: 34.6528%;
+    left: 32.6389%;
+    top: 33.7786%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.CommandPromptShowingWebsocketConnectionThroughARelayLaterOnTheRelayWouldBeRemovedAndTheConnectionWouldBeDirect {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 38.7828%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ChipNowShowsEmotionsBasedOffTheAmountOfTrackersFoundOnAWebsite {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 42.1872%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AnimatedTextBox {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 47.0349%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.EmotionRulesBasedOffHowManyTrackersAndFingerprintersWereFound {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 44.5579%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.DesktopPetVersion030 {
+    width: 33.4722%;
+    left: 3.8889%;
+    top: 35.2161%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Version03IsWhereTheBulkOfTheBrowserImplementationOccurredAndWhereMostTimeWasSpentEarlyOnItWasClearThatTheAppItselfCouldNotTalkToTheBrowserWithoutALotOfEffortAndSecurityIssuesWithinTheComputerSoTheChoiceWasMadeToPairTheAppWithABrowserPlugInThisBrowserPlugInWouldConnectToTheAppViaAWebsocketAndSendTheTrackerAndUrlDataToTheDesktopPetHereIsWhereTheBulkOfTheCodingOccurredAlongsideAiUsageAsWebsocketConnectionsAndDataTransferIsBeyondMyCapabilitiesForDisclosureTheOnlyPartsThatUtilisedAiAreTheWebsocketDataTransferAndProcessingAndDebuggingCodeWhereNeededOtherThanTheWebsocketATransparentTextBoxWasImplementedToSummariseVersion03NowConnectsToTheBrowserAndHasTheCatReactToTheDataThoughNotVeryWellChipAlsoHasANewAnimatedTextBox {
+    width: 87.3611%;
+    left: 8.6806%;
+    top: 35.5%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DesktopPetVersion040 {
+    width: 33.4722%;
+    left: 3.8889%;
+    top: 47.7328%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.Version04WasMainlyAboutRefiningALotOfTheEstablishedFunctionsIn03TheTrackerReactionsWereCataloguedAsMoodsDependingOnTheTrackerAmountTheseMoodsDetailedExactlyHowTheCatShouldActAndWhatWindowsShouldOpenForHowLongAlongsideThatTheScreentimeFeatureWasAddedStartingA5MinuteTimerWhenASocialMediaSiteIsLoadedAfterWhichTheUserIsPromptedByChipTheWindowsUiWasImplementedAsWellHereSeenAsAnAnimatedTextBoxAlongsideTheBoxChipWasGivenASoundForTheFirstTimeBasedOffGamesLikeDeltaruneISampledAMeowingSoundThatWithinTheProgramRepeatsPerLetterShown {
+    width: 87.3611%;
+    left: 8.6806%;
+    top: 48.2644%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.DesktopPetVersion050 {
+    width: 33.4722%;
+    left: 3.8889%;
+    top: 59.2096%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 700;
+    word-wrap: break-word;
+}
+
+.HavingFinishedMostOfTheCodeTheRemainingPartsToBeDoneAreImplementingTheNewUiAndRefiningItsBehaviourAsAtTimesItWouldOverlapWrongOrTextWouldLeaveTheBoxInThisStepTheRadialMenuWasRemovedAfterFeedbackAndASettingsAndInfoMenuWereAddedAsAReplacementTheInfoMenuFunctionsToShowTheUserHowManyTrackersAndFingerprintersWereCurrentlyPresentAndToGiveThemResourcesForFurtherInformationHereAFeedingFunctinoWasAlsoAddedMakingChipEatTheTotalCookiesCollectedTheSettingsMenuHasTheAbilityToChangeTheFontSizeForTheDialogueAndInformationAlongsideATritanopiaModeAddedForAccessibilityASmallPartWasAddingAnAdRecognitionFunctionThatReactsBasedOffWhichWebsitesYouReVisitingAsIWasUnableToMakeAnActualAdRecognitionScriptICheatedByCollectingWebsitesThatAreKnownOrSeemToHaveAALotOfAdsWhenAUserVisitsThoseSitesTheyArePromptedByChipAllInAllThisLastVersionWasAboutImplementingTheLastPartsAndRefiningTheAppBeforeItHadToBeHandedInFurtherWorkWillBeDoneAfterThisProject {
+    width: 87.3611%;
+    left: 8.6806%;
+    top: 60.0046%;
+    position: absolute;
+    color: black;
+    font-size: 1.6667cqw;
+    font-family: Inter;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+
+.Textboxanimatedboxwithtext2 {
+    
+    height: 1.5993%;
+    left: 50.4167%;
+    top: 45.2877%;
+    position: absolute;
+}
+
+.Image11 {
+    width: 55.5556%;
+    height: 1.3728%;
+    left: 22.2222%;
+    top: 43.0048%;
+    position: absolute;
+}
+
+.App181 {
+    width: 34.8611%;
+    height: 2.7594%;
+    left: 32.5694%;
+    top: 62.0846%;
+    position: absolute;
+}
+
+.App191 {
+    width: 39.6528%;
+    height: 2.5699%;
+    left: 17.1528%;
+    top: 65.9348%;
+    position: absolute;
+}
+
+.App201 {
+    width: 71.875%;
+    height: 3.9473%;
+    left: 14.0278%;
+    top: 74.985%;
+    position: absolute;
+}
+
+.App211 {
+    width: 23.1944%;
+    height: 1.456%;
+    left: 38.4028%;
+    top: 69.5262%;
+    position: absolute;
+}
+
+.App221 {
+    width: 24.0278%;
+    height: 1.2156%;
+    left: 58.75%;
+    top: 65.9348%;
+    position: absolute;
+}
+
+.App231 {
+    width: 23.9583%;
+    height: 1.2896%;
+    left: 58.8194%;
+    top: 67.2198%;
+    position: absolute;
+}
+
+.Screenshot202606252346242 {
+    width: 53.2639%;
+    height: 3.8734%;
+    left: 23.3333%;
+    top: 79.9769%;
+    position: absolute;
+}
+
+.Image12 {
+    width: 34.7917%;
+    height: 2.6993%;
+    left: 14.0278%;
+    top: 72.1331%;
+    position: absolute;
+}
+
+.Image13 {
+    width: 30%;
+    height: 2.6993%;
+    left: 55.9028%;
+    top: 72.1331%;
+    position: absolute;
+}
+
+.ExampleOfAMood {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 52.6369%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.NewTextBoxAdded {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 55.0312%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.VoiceAddedSampledFromACatSMeowing {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 58.4978%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ShowcaseOfAGuiErrorTextExitingBox {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 65.0566%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.VariousNewGuiImplementationsHereInformationBoxAndDialogueBox {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 68.722%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AdRecongitionCodeShowingUrlsThatTriggerTheMood {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 71.1948%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.VariousChipReactionsTrackersAndScreentime {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 79.1449%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.ShowcaseOfSettingsMenuWithTritanopiaModeEnabled {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 84.0629%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.AdsReactionChip {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 88.514%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SocialMediaReactionFromChip {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 93.2609%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.SettingsDemo {
+    width: 41.3194%;
+    left: 29.3056%;
+    top: 98.3083%;
+    position: absolute;
+    text-align: center;
+    color: black;
+    font-size: 0.9vw;
+    font-family: Inter;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.Adsdone1 {
+    width: 89.1667%;
+    height: 3.3372%;
+    left: 5.4167%;
+    top: 84.9642%;
+    position: absolute;
+}
+
+.Settingsdone1 {
+    width: 89.1667%;
+    height: 3.3372%;
+    left: 5.4167%;
+    top: 94.7585%;
+    position: absolute;
+}
+
+.Socialsdone1 {
+    width: 89.1667%;
+    height: 3.3372%;
+    left: 5.4167%;
+    top: 89.7111%;
+    position: absolute;
+}

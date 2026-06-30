@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
     <script src="vendor/lemonade.min.js"></script>
@@ -16,6 +16,8 @@
 <body>
 
 
+<div id="left-panel">
+<div id="drag-handle">⠿</div>
 <div id="root"></div>
 
 <script>
@@ -217,16 +219,17 @@ setTimeout(applyDateHighlights, 200);
 
 
 <div id="root2" style="height: 300px"></div>
+</div>
 
 <script>
 const { Timeline } = calendarjs;
 
 Timeline(document.getElementById('root2'), {
     data: [
-        { title: 'Concept Development', date: '2025-02-01', borderColor: 'black' },
-        { title: 'Visual Development', date: '2025-02-01', borderColor: 'black' },
-        { title: 'App Development', date: '2025-02-15', borderColor: 'black' },
-        { title: 'Presentation Development', date: '2025-03-01', borderColor: 'black' }
+        { title: 'Theoretical Thesis', date: '2025-02-01', borderColor: 'white' },
+        { title: 'Concept Development', date: '2025-02-01', borderColor: 'white' },
+        { title: 'Visual Development', date: '2025-02-01', borderColor: 'white' },
+        { title: 'App Development', date: '2025-02-15', borderColor: 'white' },
     ],
     align: 'left',
     format: 'dd'
@@ -234,10 +237,11 @@ Timeline(document.getElementById('root2'), {
 
 function bindTimelineClicks() {
     const sectionMap = {
+		'Theoretical Thesis': 'theoreticalthesis',
         'Concept Development': 'concept-development',
         'Visual Development': 'visual-development',
         'App Development': 'app-development',
-        'Presentation Development': 'presentation-development'
+        
     };
     const items = document.querySelectorAll('#root2 .lm-timeline-item');
     items.forEach(item => {
@@ -277,9 +281,83 @@ setTimeout(bindTimelineClicks, 200);
 	<div class="controls">Calendar controls &larr; &rarr; &uarr; &darr; </div>
 </div>
 <script src="script.js"></script> -->
+
+
+<div class="raisin" id="walk">
+	<image src="raisinwalk.gif"></image>
+</div>
+
+<div class="links"> 
+	Resources
+	<a class="itch" href="https://toasht.itch.io/chipblock" target="_blank">App download</a>
+	<a class="git" href="https://github.com/taylorsaccount/chipblock" target="_blank">Github</a>
+</div>
+
 <div class="doc">
-<div class="title" id="concept-development">Concept Development
-<div data-layer="Desktop - 1" class="Desktop1">
+<div class="title" id="credit">
+Credits
+	<div class="credits">
+Bachelor Thesis 2026
+
+
+<h3>Concept and design:</h3>
+Taylor Noelle Kovacevic
+
+<h3>Tutors:</h3>
+Thomas Bircher
+Viola Diehl
+
+<h3>Programs used:</h3>
+Asperite
+Photoshop
+Figma
+Godot Engine
+VS Code
+Claude AI (AI was strictly used for help with complex code, no images were generated)
+
+Thanks to Privacy Badger 
+Further thanks to Invar-Torre Hollaus for being an excellent mentor during the theoretical thesis
+
+
+FHNW, Basel Academy of Art and Design
+Institute Digital Communication Environments
+Bachelor Visual Communication and Digital Spaces
+Specialization: Digital Spaces
+
+
+<h3>© 2026 Taylor Noelle Kovacevic / FHNW HGK Basel</h3>
+
+All rights reserved.
+	</div>
+</div>
+<div class="title" id="theoreticalthesis">
+Theoretical thesis<div class="thesis">
+
+My thesis will touch upon the technologies involved in the harvesting of data, the economic and political motivations and the ways in which the user can counter said harvesting.
+
+The technological portion will explain what cookies are and how they function in both beneficial and malicious ways. The history of cookies may also be touched upon if characters allow.
+While researching for the practice thesis I found myself recognizing patterns related to the motivations behind cookie/data usage. So, for this part, I find it important for the user to understand exactly why their data is being harvested and used to influence them, to reinforce the importance of data privacy. 
+
+The economic motivations will mainly revolve around data brokers and how social media makes money off personal data. 
+
+Politically I will mention various examples like Cambridge analytica, in which data was harvested and utilized to change electoral results. Adding to that I will also reflect critically on sources, as many can be rather contradictory and/or sponsored by biased companies. I will achieve this by presenting reliable sources and explaining my criteria.
+
+The last and arguably most important part will revolve around possible methods for users to counteract said data harvesting and how to implement them in a user-friendly way. This part will contribute to my project and vice versa, as my goal is to make said methods easily accessible through a tool.
+The main method of research will be through papers, though if possible, contacting organizations involved in fighting for data privacy would be beneficial.
+
+The main questions I would like to answer with my thesis and project are:
+
+- How do you spread awareness about data privacy?
+- How do you make privacy/tools more accessible? / How do you introduce users to privacy tools?
+
+My criteria for the thesis are for it to be easily accessible for non-technically knowledgeable consumers.
+
+<embed src="2026_BA_Kulturgeschichtliche_Thesis_Taylor.pdf" type="application/pdf" width="100%" height="600px" />
+</div>
+
+</div>
+<div class="title" id="concept-development">
+Concept Development<div data-layer="Desktop - 1" class="Desktop1">
   <div data-layer="January" class="January">January</div>
   <div data-layer="February" class="February">February</div>
   <div data-layer="March" class="March">March</div>
@@ -308,8 +386,9 @@ setTimeout(bindTimelineClicks, 200);
 </div>
 
 </div>
-<div class="title" id="visual-development">Visual Development
-	<div data-layer="Desktop - 2" class="Desktop2">
+<div class="title" id="visual-development">
+Visual Development
+<div data-layer="Desktop - 2" class="Desktop2">
   <div data-layer="AD-blocker" class="AdBlocker">AD-blocker</div>
   <div data-layer="First concept that was later discarded. The ad-blocker wasnt fully designed, though mock-ups were attempted with a simple and clean look inspired by other ad-blockers like uBlock Origin." class="FirstConceptThatWasLaterDiscardedTheAdBlockerWasntFullyDesignedThoughMockUpsWereAttemptedWithASimpleAndCleanLookInspiredByOtherAdBlockersLikeUblockOrigin">First concept that was later discarded. The ad-blocker wasnt fully designed, though mock-ups were attempted with a simple and clean look inspired by other ad-blockers like uBlock Origin.</div>
   <div data-layer="Desktop Pet, Character" class="DesktopPetCharacter">Desktop Pet, Character</div>
@@ -434,8 +513,8 @@ setTimeout(bindTimelineClicks, 200);
   <div data-layer="After many attempts to find the right combinations I came to use the blue hues, the red and the orange, with the idea being of utilising these colors in consistent ways to after some use should feel intuitive. The blues are used as background to highlight its contents, the red is used for the informational layer of the app showcasing settings or warnings, and the orange is the interactive layer that a user can press, slide or scroll with. Each box was further detailed with outlines, shadows and highlights to add dimension to them, with the dialogue box being given slight texture to set it apart from the rest of the GUI." class="AfterManyAttemptsToFindTheRightCombinationsICameToUseTheBlueHuesTheRedAndTheOrangeWithTheIdeaBeingOfUtilisingTheseColorsInConsistentWaysToAfterSomeUseShouldFeelIntuitiveTheBluesAreUsedAsBackgroundToHighlightItsContentsTheRedIsUsedForTheInformationalLayerOfTheAppShowcasingSettingsOrWarningsAndTheOrangeIsTheInteractiveLayerThatAUserCanPressSlideOrScrollWithEachBoxWasFurtherDetailedWithOutlinesShadowsAndHighlightsToAddDimensionToThemWithTheDialogueBoxBeingGivenSlightTextureToSetItApartFromTheRestOfTheGui">After many attempts to find the right combinations I came to use the blue hues, the red and the orange, with the idea being of utilising these colors in consistent ways to after some use should feel intuitive. The blues are used as background to highlight its contents, the red is used for the informational layer of the app showcasing settings or warnings, and the orange is the interactive layer that a user can press, slide or scroll with. Each box was further detailed with outlines, shadows and highlights to add dimension to them, with the dialogue box being given slight texture to set it apart from the rest of the GUI. </div>
 </div>
 </div>
-<div class="title" id="app-development">App Development
-<div data-layer="Desktop - 3" class="Desktop3">
+<div class="title" id="app-development">
+App Development<div data-layer="Desktop - 3" class="Desktop3">
   <div data-layer="App Development" class="AppDevelopment">App Development</div>
   <div data-layer="AD-Blocker Idea" class="AdBlockerIdea">AD-Blocker Idea</div>
   <div data-layer="The initial idea was a simple ad-blocker. The code for it was relatively simple, utilising a normal browser extension structure alongside a list of “rules” being known domains ads are shown with, thus blocking most ads, as testing proved. A quick mock-up was done for a presentation before the idea was fully scrapped." class="TheInitialIdeaWasASimpleAdBlockerTheCodeForItWasRelativelySimpleUtilisingANormalBrowserExtensionStructureAlongsideAListOfRulesBeingKnownDomainsAdsAreShownWithThusBlockingMostAdsAsTestingProvedAQuickMockUpWasDoneForAPresentationBeforeTheIdeaWasFullyScrapped">The initial idea was a simple ad-blocker. The code for it was relatively simple, utilising a normal browser extension structure alongside a list of “rules” being known domains ads are shown with, thus blocking most ads, as testing proved. A quick mock-up was done for a presentation before the idea was fully scrapped.</div>
@@ -504,9 +583,12 @@ setTimeout(bindTimelineClicks, 200);
 </div>
 
 </div>
-<div class="title" id="presentation-development">Presentation Development</div>
 
-<div class="title">Daily Overview</div>
+
+<div class="title">
+Daily Overview
+
+</div>
 <div class="process" id="date-2026-01-26">
   <style>
 a,
@@ -1222,11 +1304,11 @@ blockquote.quote-large {
 	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
 }
 	
-</style><article id="2f46fc77-a08b-80df-9e37-c2ba6d78789e" class="page sans"><header><h1 class="page-title" dir="auto">26/01/26</h1></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-80ed-96f9-f5aa1f1c3f09" class="">Mindmap</h1></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8081-ab8b-c5f5876f4ad7"></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-801a-997c-c3a564ecd06d" class="image"><a href="/process_pictures/p1/image.png"><img style="width:709.9874877929688px" src="/process_pictures/p1/image.png"/></a></figure></div><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-8075-a8d9-c33c60bafc8a" class="">Visuals for first hand-in</h1></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-80f8-a6fe-c625ed672b04" class="image" style="text-align:left"><a href="/process_pictures/p1/image 1.png"><img style="width:432px" src="/process_pictures/p1/image 1.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8098-8f47-d585c343c30c" class="image" style="text-align:left"><a href="/process_pictures/p1/image 2.png"><img style="width:432px" src="/process_pictures/p1/image 2.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-802f-94ba-fda5b1792547" class="image" style="text-align:left"><a href="/process_pictures/p1/image 3.png"><img style="width:432px" src="/process_pictures/p1/image 3.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-804e-94c4-f427dbaaac3d" class="image" style="text-align:left"><a href="/process_pictures/p1/image 4.png"><img style="width:432px" src="/process_pictures/p1/image 4.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80f9-9548-cb160325b70a" class="">
-</p></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-8086-91a1-cb82bdc324e3" class=""><a href="https://cambridge-intelligence.com/visualizing-cyber-security-graphs-data-breaches/">https://cambridge-intelligence.com/visualizing-cyber-security-graphs-data-breaches/</a></p></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8090-ad4d-d0d65a14e1e8" class="image" style="text-align:left"><a href="/process_pictures/p1/image 5.png"><img style="width:364.98809814453125px" src="/process_pictures/p1/image 5.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80ff-ac0e-fef217541fbd" class="">
+</style><article id="2f46fc77-a08b-80df-9e37-c2ba6d78789e" class="page sans"><header><h1 class="page-title" dir="auto">26/01/26</h1></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-80ed-96f9-f5aa1f1c3f09" class="">Mindmap</h1></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8081-ab8b-c5f5876f4ad7"></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-801a-997c-c3a564ecd06d" class="image"><a href="process_pictures/p1/image.png"><img style="width:709.9874877929688px" src="process_pictures/p1/image.png"/></a></figure></div><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-8075-a8d9-c33c60bafc8a" class="">Visuals for first hand-in</h1></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-80f8-a6fe-c625ed672b04" class="image" style="text-align:left"><a href="process_pictures/p1/image 1.png"><img style="width:432px" src="process_pictures/p1/image 1.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8098-8f47-d585c343c30c" class="image" style="text-align:left"><a href="process_pictures/p1/image 2.png"><img style="width:432px" src="process_pictures/p1/image 2.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-802f-94ba-fda5b1792547" class="image" style="text-align:left"><a href="process_pictures/p1/image 3.png"><img style="width:432px" src="process_pictures/p1/image 3.png"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-804e-94c4-f427dbaaac3d" class="image" style="text-align:left"><a href="process_pictures/p1/image 4.png"><img style="width:432px" src="process_pictures/p1/image 4.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80f9-9548-cb160325b70a" class="">
+</p></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-8086-91a1-cb82bdc324e3" class=""><a href="https://cambridge-intelligence.com/visualizing-cyber-security-graphs-data-breaches/">https://cambridge-intelligence.com/visualizing-cyber-security-graphs-data-breaches/</a></p></div><div style="display:contents" dir="ltr"><figure id="2f46fc77-a08b-8090-ad4d-d0d65a14e1e8" class="image" style="text-align:left"><a href="process_pictures/p1/image 5.png"><img style="width:364.98809814453125px" src="process_pictures/p1/image 5.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80ff-ac0e-fef217541fbd" class="">
 </p></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80cd-8646-edd759667426" class="">
 </p></div><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-8028-9d99-f027d09fbdd4" class="">Sentence for first hand-in</h1></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-80eb-9d2d-e5c52fbb2f0b" class="">How do you counteract the loss of privacy instigated by cookies and spyware? This project aims to visualise and aid the regular consumer in understanding the problem and taking steps to solve it for themselves.</p></div><div style="display:contents" dir="auto"><p id="2f46fc77-a08b-808d-b5d4-e347df4550a4" class="">How do you make privacy accessible to the average consumer?</p></div><div style="display:contents" dir="auto"><p id="2fa6fc77-a08b-80b2-80e5-f21c87ccd12c" class="">
-</p></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></div>
+</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></div>
 
 
 
@@ -1940,11 +2022,11 @@ blockquote.quote-large {
 
 
 	
-</style><article id="2f46fc77-a08b-8044-856f-f90861b0fc4f" class="page sans"><header><h1 class="page-title" dir="auto">27/01/26</h1></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-80b8-96e0-d1b39159022b" class="">Praxis/Creative Idea mindmap</h1></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-800f-966f-f22b3b8b6e26" class="">Maybe just reduce to only a tool to help privacy</p></div><div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-803c-8f0d-fc342f4dde62" class="bulleted-list"><li style="list-style-type:disc">Makes it easier instead of a whole website<div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-800b-a6f4-f7ab69aca37f" class="bulleted-list"><li style="list-style-type:circle">Maybe a tool of tools basically</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-8064-b16d-d1a25d1b5f45" class="bulleted-list"><li style="list-style-type:disc">Do you focus on stopping a consumer profile from being created or from being influenced by the targeted advertisement? <div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-8022-968d-f89f3971d46d" class="bulleted-list"><li style="list-style-type:circle">Essentially at what point in the chain do you stop it, the start or the end?</li></ul></div></li></ul></div><div style="display:contents" dir="ltr"><figure id="2f76fc77-a08b-8007-9a62-ccf701e5f21a" class="image"><a href="/process_pictures/p1/image.png"><img style="width:364.9940490722656px" src="/process_pictures/p1/image.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-800b-9660-f85bf06adcfb" class="">
+</style><article id="2f46fc77-a08b-8044-856f-f90861b0fc4f" class="page sans"><header><h1 class="page-title" dir="auto">27/01/26</h1></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="2f46fc77-a08b-80b8-96e0-d1b39159022b" class="">Praxis/Creative Idea mindmap</h1></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-800f-966f-f22b3b8b6e26" class="">Maybe just reduce to only a tool to help privacy</p></div><div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-803c-8f0d-fc342f4dde62" class="bulleted-list"><li style="list-style-type:disc">Makes it easier instead of a whole website<div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-800b-a6f4-f7ab69aca37f" class="bulleted-list"><li style="list-style-type:circle">Maybe a tool of tools basically</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-8064-b16d-d1a25d1b5f45" class="bulleted-list"><li style="list-style-type:disc">Do you focus on stopping a consumer profile from being created or from being influenced by the targeted advertisement? <div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-8022-968d-f89f3971d46d" class="bulleted-list"><li style="list-style-type:circle">Essentially at what point in the chain do you stop it, the start or the end?</li></ul></div></li></ul></div><div style="display:contents" dir="ltr"><figure id="2f76fc77-a08b-8007-9a62-ccf701e5f21a" class="image"><a href="process_pictures/p1/image.png"><img style="width:364.9940490722656px" src="process_pictures/p1/image.png"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-800b-9660-f85bf06adcfb" class="">
 </p></div><div style="display:contents" dir="ltr"><figure id="2f76fc77-a08b-8020-b9b4-f64a633f5aea"></figure></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-800b-ade8-c822c84c0a43" class="">
 </p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-805c-a3dc-fd8cdb843a5d" class="">
 </p></div><div style="display:contents" dir="auto"><h1 id="2f56fc77-a08b-8036-a168-dc07ec833019" class="">Notes</h1></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-803c-a238-fed4fad2bedf" class="">Look at what the law says</p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-8027-ada8-d45c388861c8" class="">Try to narrow the scope of data privacy</p></div><div style="display:contents" dir="auto"><ul id="2f56fc77-a08b-806a-8549-ceafd3d2958d" class="bulleted-list"><li style="list-style-type:disc">You&#x27;d think to do swiss law but all the apps and Internet are essentially US centred </li></ul></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-806e-8795-e1ebe9527edc" class="">Critically question everything, especially sources. </p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-8014-98ec-f011f8eb512b" class="">
-</p></div><div style="display:contents" dir="ltr"><figure id="2f56fc77-a08b-801f-8bbf-eed30b731cd1" class="image"><a href="/process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055278.jpg"><img style="width:365px" src="/process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055278.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f56fc77-a08b-805b-b22d-de640e08f9e4" class="image"><a href="/process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055280.jpg"><img style="width:365px" src="/process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055280.jpg"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-80c9-a436-cbd43df4e9b0" class="">
+</p></div><div style="display:contents" dir="ltr"><figure id="2f56fc77-a08b-801f-8bbf-eed30b731cd1" class="image"><a href="process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055278.jpg"><img style="width:365px" src="process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055278.jpg"/></a></figure></div><div style="display:contents" dir="ltr"><figure id="2f56fc77-a08b-805b-b22d-de640e08f9e4" class="image"><a href="process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055280.jpg"><img style="width:365px" src="process_pictures/p1/ExportBlock-baf7cf85-6b73-495c-a5e0-f6f3b05d0616-Part-1/1000055280.jpg"/></a></figure></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-80c9-a436-cbd43df4e9b0" class="">
 </p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-8084-b028-ffa621d9a1d4" class="">
 </p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-804c-9829-f9e5026496e6" class="">
 </p></div><div style="display:contents" dir="auto"><p id="2f56fc77-a08b-803e-a7c2-de3dd5f8de2b" class="">
@@ -43677,6 +43759,53 @@ blockquote.quote-large {
 </div>
 </div>
 
-    
+
+<script>
+document.querySelectorAll('.title').forEach(function(el) {
+    var content = el.querySelector(':scope > div');
+    if (content) {
+        content.addEventListener('click', function(e) { e.stopPropagation(); });
+        el.addEventListener('click', function() { el.classList.toggle('open'); });
+    }
+});
+
+var timelinePanel = document.getElementById('timeline-panel');
+if (timelinePanel) {
+    var root2 = document.getElementById('root2');
+    if (root2) root2.addEventListener('click', function(e) { e.stopPropagation(); });
+    timelinePanel.addEventListener('click', function() { timelinePanel.classList.toggle('open'); });
+}
+
+document.querySelectorAll('.process').forEach(function(el) {
+    var header = el.querySelector('header');
+    if (header) {
+        header.addEventListener('click', function() { el.classList.toggle('open'); });
+    }
+});
+
+(function() {
+    var panel = document.getElementById('left-panel');
+    var handle = document.getElementById('drag-handle');
+    var dragging = false, startX, startY, startLeft, startTop;
+
+    handle.addEventListener('mousedown', function(e) {
+        dragging = true;
+        startX = e.clientX;
+        startY = e.clientY;
+        var rect = panel.getBoundingClientRect();
+        startLeft = rect.left;
+        startTop = rect.top;
+        e.preventDefault();
+    });
+
+    document.addEventListener('mousemove', function(e) {
+        if (!dragging) return;
+        panel.style.left = (startLeft + e.clientX - startX) + 'px';
+        panel.style.top  = (startTop  + e.clientY - startY) + 'px';
+    });
+
+    document.addEventListener('mouseup', function() { dragging = false; });
+})();
+</script>
 </body>
 </html>

@@ -1,43 +1,164 @@
 
 
 :root{
-    --main-color-light: white;
+    --main-color-light: #FFE2D1;
     --secondary-color-light: black;
-    --tertiary-color-light: #3a5ae68c;
+    --tertiary-color-light: #F27127;
+    --quartiary-color-light: #71B8D9;
+    --lm-border-color: rgb(255, 255, 255);
+    
+}
+
+@font-face {
+    font-family: Minecraft;
+    src: url(MinecraftStandard.otf);
 }
 
 html{
     background-color: var(--main-color-light);
     color: var(--secondary-color-light);
+    
+}
+
+#left-panel {
+    position: fixed;
+    left: 1%;
+    top: 2%;
+    display: flex;
+    flex-direction: column;
+    width: clamp(260px, 42vw, 380px);
+    gap: 16px;
+    z-index: 1;
+}
+
+#drag-handle {
+    cursor: grab;
+    user-select: none;
+    align-self: center;
+    width: 24px;
+    height: 16px;
+    background-image: radial-gradient(circle, var(--secondary-color-light) 1.5px, transparent 1.5px);
+    background-size: 6px 6px;
+    image-rendering: pixelated;
+    opacity: 0.4;
+    font-size: 0;
+}
+
+#drag-handle:active {
+    cursor: grabbing;
+    opacity: 0.8;
 }
 
 #root{
-        border-radius: 10px;
-   
-    display: inline-block;
+    border-radius: 10px;
+    background-image: url(NEWGUIBUTTONBOXSETTINGS.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 8px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
     line-height: initial;
-    position: fixed;
-    left: 1%;
-    font-family: Arial;
-    top: 2%;
-    margin: 16px 0;
-    border: 1px solid var(--secondary-color-light);
+    color: var(--lm-border-color);
+    font-family: 'Segoe UI';
+    box-shadow: grey -1px 4px 7px 2px;
+
 }
 
 #root2{
     border-radius: 10px;
-    margin: 16px 0;
-    display: inline-block;
+    background-image: url(NEWGUIBUTTONBOXSETTINGS.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: var(--main-color-light);
+    display: block;
+    width: clamp(260px, 42vw, 380px);
+    box-sizing: border-box;
+    align-content: center;
     line-height: initial;
-    position: fixed;
-    left: 1%;
-    font-family: Arial;
-    bottom: 2%;
-    border: 1px solid var(--secondary-color-light);
+    font-family: 'Segoe UI';
+    --lm-border-color: white !important;
+    box-shadow: grey -1px 4px 7px 2px;
 }
+
+
+
+.raisin{
+    position: fixed;
+    display: block;
+    bottom: -0.6%;
+    left: 30%;
+    
+    zoom: 70%;
+    animation: rwalk 40s ease-in-out infinite ;
+}
+
+@keyframes rwalk {
+    0%{
+        left: 30%;
+        transform: scaleX(1);
+    }
+
+    50%{
+        left: 2%;
+        transform: scaleX(1);
+    }
+
+    51%{
+        transform: scaleX(-1);
+    }
+    99%{
+        transform: scaleX(-1);
+    }
+}
+
+.links{
+    position: fixed;
+    left: -1%;
+    bottom: 10%;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+.itch{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.itch:hover{
+    color: #F27127;
+}
+
+.git{
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 300;
+}
+
+.git:hover{
+    color: #F27127;
+}
+
 
 .lm-calendar-footer{
     display: none;
+    
+}
+
+
+.lm-calendar-content>div{
+    border-radius: 10px;
+}
+
+.lm-calendar-content>div[data-selected=true]{
+    background-color: #D94A4A;
+    color: white;
+}
+
+#root2 .lm-timeline-title,
+#root2 .lm-timeline-item[data-bullet]::before {
+    color: white !important;
 }
 
 .lm-timeline-data[data-align=left] .lm-timeline-item[data-bullet]::before {
@@ -45,6 +166,7 @@ html{
     margin: 0 0 0 -105px;
     text-align: right;
     display: none;
+    
 }
 
 .lm-timeline-data[data-align=left] {
@@ -60,10 +182,10 @@ html{
     border-radius: 16px;
     border-width: 3px;
     border-style: solid;
-    border-color: #93a4f1;
+    border-color: var(--tertiary-color-light);
     display: inline-block;
     box-sizing: border-box;
-    background-color: #93a4f1;
+    background-color: var(--tertiary-color-light);
     margin: 1px;
     position: absolute;
 }
@@ -108,29 +230,132 @@ html{
     position: absolute;
     display: flex;
     right: 0%;
-    top:3%;
+    top:0%;
     left: 40%;
-    
+     -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
     overflow-y: scroll;
     flex-direction: column;
+    
+    background-color: var(--main-color-light);
     
 }
 
 
 .title{
     font-family: arial;
-    font-size: 8vw;
-     border-top: solid var(--secondary-color-light) 1px;
+    display: block;
+    width: 100%;
+    font-size: 5vw;
+    line-height: 1;
+    margin: 0;
+    
+    border-top: solid var(--secondary-color-light) 1px;
+    cursor: pointer;
+    user-select: none;
+    box-sizing: border-box;
+}
 
+.thesis{
+    position: relative;
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vh;
+    margin-right: 10vw;
+    left: 0%;
+
+}
+
+#theoreticalthesis:hover{
+    color: #F27127;
+}
+
+#theoreticalthesis:hover .thesis{
+    color: var(--secondary-color-light);
+}
+
+#credit:hover{
+    color: #F27127;
+}
+
+#credit:hover .credits{
+    color: var(--secondary-color-light);
+}
+
+#concept-development:hover{
+    color: #F27127;
+}
+
+#concept-development:hover .Desktop1{
+    color: var(--secondary-color-light);
+}
+
+
+#visual-development:hover{
+    color: #F27127;
+}
+
+#visual-development:hover .Desktop2{
+    color: var(--secondary-color-light);
+}
+
+#app-development:hover{
+    color: #F27127;
+}
+
+#app-development:hover .Desktop3{
+    color: var(--secondary-color-light);
+}
+
+
+.title > div {
+    display: none;
+}
+
+.title.open > div {
+    display: block;
 }
 
 .process{
     position: relative;
     border-top: solid var(--secondary-color-light) 1px;
     border-bottom: solid var(--secondary-color-light) 1px;
-   
-    padding-bottom: 10vh;
+    background-color: var(--main-color-light);
+    padding-bottom: 0;
+    padding-top: 1vh;
+}
+
+.process.open {
     padding-top: 10vh;
+}
+
+.process header {
+    cursor: pointer;
+    user-select: none;
+}
+
+.process header:hover{
+    color: #F27127;
+}
+
+.process .page-body {
+    display: none;
+    padding-bottom: 10vh;
+}
+
+.process.open .page-body {
+    display: block;
+}
+
+#credit{
+    position: relative;
+    left: 0%;
+}
+
+.credits{
+    font-size: 1vw;
+    font-weight: 400;
+    line-height: 2vh;
 }
 
 /* Desktop1 section */
@@ -140,7 +365,7 @@ html{
     padding-top: 368.8194%;
     container-type: inline-size;
     position: relative;
-    background: white;
+    background-color: var(--main-color-light);
     overflow: hidden;
 }
 
@@ -433,7 +658,7 @@ html{
     padding-top: 1836.5278%;
     container-type: inline-size;
     position: relative;
-    background: white;
+    background-color: var(--main-color-light);
     overflow: hidden;
 }
 
@@ -1698,7 +1923,7 @@ html{
     padding-top: 1502.4306%;
     container-type: inline-size;
     position: relative;
-    background: white;
+    background-color: var(--main-color-light);
     overflow: hidden;
 }
 
